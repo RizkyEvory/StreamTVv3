@@ -1,0 +1,6 @@
+{
+  "name": "M4DI~UciH4-TV",
+  "description": "A premium Live TV and IPTV player for Android TV and mobile devices.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">M4DI~UciH4-TV</string>
+    <string name="app_slogan">Streaming Tanpa Batas</string>
+    <string name="search_hint">Cari channel...</string>
+    <string name="no_results">Tidak ada hasil pencarian</string>
+    <string name="error_failed_to_load">Gagal memuat playlist channel</string>
+    <string name="error_failed_to_play">Gagal memutar stream</string>
+    <string name="btn_retry">Coba Lagi</string>
+    <string name="no_connection">Tidak ada koneksi internet</string>
+    <string name="loading_channels">Memuat daftar channel...</string>
+    <string name="all_channels">Semua Channel</string>
+    <string name="playing_channel">Memutar:</string>
+    <string name="buffering">Buffering...</string>
+</resources>
