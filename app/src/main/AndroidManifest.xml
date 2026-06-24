@@ -11,6 +11,9 @@
     <uses-feature android:name="android.software.leanback" android:required="false" />
     <uses-feature android:name="android.hardware.touchscreen" android:required="false" />
 
+    <!-- Attributions to resolve AppOps attributionTag warnings on Android 11+ -->
+    <attribution android:tag="default" android:label="@string/app_name" />
+
     <application
         android:name=".App"
         android:allowBackup="true"

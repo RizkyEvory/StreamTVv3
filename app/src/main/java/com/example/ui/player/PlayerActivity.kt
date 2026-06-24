@@ -187,7 +187,12 @@ class PlayerActivity : AppCompatActivity() {
         ))
 
         player?.release()
-        player = ExoPlayer.Builder(this)
+        val playerContext = if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.R) {
+            createAttributionContext("default")
+        } else {
+            this
+        }
+        player = ExoPlayer.Builder(playerContext)
             .setMediaSourceFactory(DefaultMediaSourceFactory(httpDataSourceFactory))
             .build()
             .also { exo ->

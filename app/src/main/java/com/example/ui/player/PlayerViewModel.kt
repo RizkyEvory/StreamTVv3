@@ -57,6 +57,10 @@ class PlayerViewModel(application: Application) : AndroidViewModel(application) 
                     _categories.value = uniqueCategories
                     
                     filterChannels()
+
+                    if (_activeChannel.value == null && channels.isNotEmpty()) {
+                        _activeChannel.value = channels.first()
+                    }
                 }
             } catch (e: Exception) {
                 _errorMessage.value = "Error: ${e.message}"
